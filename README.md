@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Домашнее задание 2
+# goit-markup-hw-01
+Tech skill Домашнее задание 1
