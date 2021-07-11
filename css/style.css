@@ -4,17 +4,17 @@
     --accent-color-blue: #2196F3;
     --accent-color-black: #212121;
     --accent-color-gray: #757575;
-}
+    }
 .link {
     text-decoration: none;
     }
 
-body {
+.body {
     font-family: var(--main-font);
-    font-weight: 400; 
+    font-weight: 400;
     }
 /* ============= HEADER =============*/
-.logo {
+.web {
     font-family: var(--secondary-font);
     font-size: 26px;
     font-weight: 700;
@@ -22,18 +22,31 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color-blue);
     }
+.logo-link {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color-black); 
+    }
 .menu-link {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--accent-color-black);
     }
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color-blue);
+    }
 .menu-studio {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--accent-color-blue); 
+    color: var(--accent-color-blue);
     }
 .menu-portfolio {
     font-weight: 500;
@@ -41,10 +54,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--accent-color-blue); 
-    }
-.menu-link:hover,
-.menu-link:focus {
-        color:var(--accent-color-blue);
     }
     
 .header-contact-link {
@@ -56,7 +65,7 @@ body {
     
 .header-contact-link:hover,
 .header-contact-link:focus {
-        color: var(--accent-color-blue);
+    color: var(--accent-color-blue);
     }
 /* ============= END HEADER =============*/
 
@@ -69,23 +78,25 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--accent-color-black);
+    color: #FFFFFF;
+    background-color: #2196F3;;
     }
     
 .modal-btn:hover,
 .modal-btn:focus {
-        color: #FFFFFF;
-        background: var(--accent-color-blue);
+    color: #FFFFFF;
+    background: #188CE8;;
     }
     
 .hero-title {
     font-weight: 900;
+    background-color: #757575;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;;
+    color: #FFFFFF;
     }
 /* ============= END HERO =============*/
 
@@ -138,12 +149,23 @@ body {
 /* ============= END TEAM =============*/
 
 /* ============= FOOTER =============*/
+.logo-footer {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF; 
+    }
+.footer {
+    background: #2F303A;
+    }
 .footer-adress {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--accent-color-gray)
+    color: #FFFFFF;
+    font-style: normal;
     }
 /* ============= END FOOTER =============*/
 
@@ -155,6 +177,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--accent-color-black);
+    background: #F5F4FA;
     }
 
 .portfolio-button-list:hover,
